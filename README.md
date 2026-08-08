@@ -1,7 +1,5 @@
 # Cloud-Native Order Platform
 
-A portfolio/interview project designed for a Java Technical Analyst / Senior Java Backend role.
-
 ## What this demonstrates
 
 - Java 8 + Spring Boot 3.5
@@ -25,8 +23,6 @@ A portfolio/interview project designed for a Java Technical Analyst / Senior Jav
 Client -> Order API -> PostgreSQL
                     -> Redis cache
                     -> Kafka -> Notification Consumer
-
-The project intentionally keeps services in one repository so it is easy to run locally and explain in interviews. The boundaries are designed like independently deployable services.
 
 ## Prerequisites
 
